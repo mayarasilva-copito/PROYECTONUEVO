@@ -1,22 +1,20 @@
-:root{
-    --black:#000000;
-    --melon:#f7c59f;
-    --:#F9A092;
-    --:#f1989a;
-    --:#eb7563;
-    --:#296a6e;
+:root {
+  --black: #000000;
+  --melon: #f7c59f;
+  --: #f9a092;
+  --: #f1989a;
+  --: #eb7563;
+  --: #296a6e;
 }
 
 .logo img {
-    width: 10%;
+  width: 10%;
 }
-
 
 .home {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(https://campus.ctcweb.la/pluginfile.php/288706/mod_forum/post/16174/Lucid_Origin_Pintura_en_acuarela_de_un_perro_y_un_gato_sentado_3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -88,233 +86,190 @@ img {
   width: 50%;
 }
 
-
-
-
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    outline: none; border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
 }
 
-
-  
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    scroll-padding-top:6rem ;
-    overflow-x:hidden ;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
 }
 
-section{
-    padding: 2rem 9%;
-
-
+section {
+  padding: 2rem 9%;
 }
 
-
-.heading{
-    text-align: center;
-    font-size: 4rem;
-    color: #333;
-    padding: 1rem;
-    margin: 2rem 0;
-    background: #f7c59f;
-
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: #f7c59f;
 }
 
-.heading span{
-    color: #fff;
+.heading span {
+  color: #fff;
 }
 
-
-header{
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    background: #fff;
-    padding: 2rem 9%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index:1000;
-    box-shadow:0.5rem 1rem rgba(0,0,0,.1) ;
-
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-
-header .logo{
-    font-size: 3.5rem;
-    color: #333;
-    font-weight: bolder;
-
+header .logo {
+  font-size: 3.5rem;
+  color: #333;
+  font-weight: bolder;
 }
 
-header .logo span{
-    color: var(--pink);
-
+header .logo span {
+  color: var(--pink);
 }
 
-header .navbar a{
-   font-size: 2rem;
-   padding: 0 1.5 rem;
-   color: #666;
-   margin-left: 1.5rem;
+header .navbar a {
+  font-size: 2rem;
+  padding: 0 1.5 rem;
+  color: #666;
+  margin-left: 1.5rem;
 }
 
-
-
-header .navbar a:hover{
-    color: var(--orange);
+header .navbar a:hover {
+  color: var(--orange);
 }
 
-header .icons a{
-    font-size: 2.5rem;
-    color: #333;
-    margin-left: 1.5rem;
-
+header .icons a {
+  font-size: 2.5rem;
+  color: #333;
+  margin-left: 1.5rem;
 }
 
-
-header .icons a:hover{
-    color: var(--turquoise);
+header .icons a:hover {
+  color: var(--turquoise);
 }
 
-
-
-header #toggler{
-    display: none;
+header #toggler {
+  display: none;
 }
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-header .fa-bars{
-    font-size: 3rem;
-    color: #333;
-    border-radius: .5rem;
-    padding: .5rem 1.5rem;
-    cursor:pointer;
-    border:.1rem solid  #333;
-    display: none;
-
+header .fa-bars {
+  font-size: 3rem;
+  color: #333;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border: 0.1rem solid #333;
+  display: none;
 }
 
-
-
-
-@media(max-width:991px){
-
-    html{
-        font-size: 55%;
-    }
-
-    header{
-        padding: 2rem;
-    }
-
-    section{
-        padding: 2rem;
-    }
-
-
-
-    
-}
-
-@media(max-width:768px){
-
-    header .fa-bars{
-        display: block;
-        font-size: 3rem;
-        color: #333;
-        cursor:pointer;
-        padding: 1rem;
-    }
-  
-    header .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: #eee;
-        border-top: .1rem solid rgba(0,0,0,.1);
-        clip-path: polygon(0 0,100% 0,100% 0, 0 0);
-        display: none; /* Ocultar la barra de navegación en dispositivos móviles */
-    }
-  
-    header #toggler:checked ~ .navbar {
-        display: block; /* Mostrar la barra de navegación al hacer clic en el icono de hamburguesa */
-        clip-path: none; /* Eliminar la máscara de recorte */
-    }
-  
-    header .navbar a {
-        margin: 1.5rem 0; /* Ajustar los márgenes superior e inferior */
-        padding: 1rem;
-        background:#fff;
-        border: 1rem solid rgba(0,0,0,.1);
-        display: block;
-        text-align: center;
-        width: 100%; /* Ocupar todo el ancho disponible */
-    }
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
   }
 
-  @media (max-width: 991px) {
-    section {
-        padding: 2rem;
-    }
+  header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
 }
 
-section {
-    padding: 2rem 9%;
-}
-
-section {
+@media (max-width: 768px) {
+  header .fa-bars {
     display: block;
-    unicode-bidi: isolate;
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    display: none; /* Ocultar la barra de navegación en dispositivos móviles */
+  }
+
+  header #toggler:checked ~ .navbar {
+    display: block; /* Mostrar la barra de navegación al hacer clic en el icono de hamburguesa */
+    clip-path: none; /* Eliminar la máscara de recorte */
+  }
+
+  header .navbar a {
+    margin: 1.5rem 0; /* Ajustar los márgenes superior e inferior */
+    padding: 1rem;
+    background: #fff;
+    border: 1rem solid rgba(0, 0, 0, 0.1);
+    display: block;
+    text-align: center;
+    width: 100%; /* Ocupar todo el ancho disponible */
+  }
 }
 
+@media (max-width: 991px) {
+  section {
+    padding: 2rem;
+  }
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
 
 .text-container h3 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .text-container p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 p {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
 
-
-
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
 }
 
 .imagen-content {
@@ -350,16 +305,16 @@ h1 {
 }
 
 .content {
-    background-color: rgba(255, 246, 246, 0.932); /* Fondo semitransparente */
-  backdrop-filter: blur(8px);                /* Borrosidad del fondo */
-  -webkit-backdrop-filter: blur(8px);        /* Soporte para Safari */
+  background-color: rgba(255, 246, 246, 0.932); /* Fondo semitransparente */
+  backdrop-filter: blur(8px); /* Borrosidad del fondo */
+  -webkit-backdrop-filter: blur(8px); /* Soporte para Safari */
   padding: 20px;
   border-radius: 12px;
   color: #333;
 }
 
 h1.text-center {
-  background-color: #F9A092;
+  background-color: #f9a092;
   padding: 20px; /* opcional para separar contenido del borde */
   border-radius: 10px; /* opcional para bordes redondeados */
 }
