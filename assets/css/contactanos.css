@@ -1,0 +1,181 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fondo de imagen (patitas) */
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07yJo-Mnc4ajAzXKtI6KmcnZEGelNnuEVrg&s"); /* Cambia por tu imagen real */
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1100px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background: rgba(255, 255, 255, 0.95); /* Blanco casi sólido */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+/* Título principal */
+.container h1 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color: #000;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Texto de introducción */
+.intro-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+/* Cajas de contacto */
+.box {
+  background: white;
+  padding: 14px 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.3rem;
+  color: #222;
+  flex: 1 1 250px;
+  max-width: 320px;
+}
+
+.box strong {
+  font-weight: 700;
+}
+
+/* Sección de cajas agrupadas */
+.styles-demo {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* Sección redes sociales */
+
+.links-section {
+  margin-top: 3rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95); /* fondo blanco semitransparente para que se vea limpio */
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: inline-block; /* para que el fondo se ajuste al contenido */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra ligera para destacar */
+}
+
+.links-section h2 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.links-section ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.links-section .a {
+  font-size: 3rem;
+  color: #333;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.links-section .a:hover {
+  transform: scale(1.15);
+}
+
+/* Formulario de contacto */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 1.1rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  background: white;
+  color: var(--text-dark);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #666;
+  outline: none;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+/* Footer */
+.mi-footer {
+  background-color: white;
+  color: var(--text-dark);
+  text-align: center;
+  padding: 12px 0;
+  font-size: 1.8rem;
+  margin-top: auto;
+  border-top: 1px solid #ddd;
+}
