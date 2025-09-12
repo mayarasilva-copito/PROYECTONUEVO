@@ -1,0 +1,63 @@
+/* Estilos para la página ¿Quienes Somos? sin espacios en el nombre */
+body {
+  background: #f8fafc;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  padding: 2rem 2.5rem;
+}
+
+h1 {
+  color: #4f46e5;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 1.2rem;
+  color: #374151;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.miembro {
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.miembro img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.7rem;
+}
+
+.nombre {
+  font-weight: 600;
+  color: #6366f1;
+  margin-bottom: 0.2rem;
+}
+
+.rol {
+  color: #6b7280;
+  font-size: 1rem;
+}
