@@ -83,6 +83,7 @@ img {
   border: 8px;
   row-gap: auto;
 }
+
 .imagenprincipal img {
   width: 50%;
 }
@@ -212,22 +213,27 @@ header .fa-bars {
     background: #eee;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    display: none; /* Ocultar la barra de navegación en dispositivos móviles */
+    display: none;
+    /* Ocultar la barra de navegación en dispositivos móviles */
   }
 
-  header #toggler:checked ~ .navbar {
-    display: block; /* Mostrar la barra de navegación al hacer clic en el icono de hamburguesa */
-    clip-path: none; /* Eliminar la máscara de recorte */
+  header #toggler:checked~.navbar {
+    display: block;
+    /* Mostrar la barra de navegación al hacer clic en el icono de hamburguesa */
+    clip-path: none;
+    /* Eliminar la máscara de recorte */
   }
 
   header .navbar a {
-    margin: 1.5rem 0; /* Ajustar los márgenes superior e inferior */
+    margin: 1.5rem 0;
+    /* Ajustar los márgenes superior e inferior */
     padding: 1rem;
     background: #fff;
     border: 1rem solid rgba(0, 0, 0, 0.1);
     display: block;
     text-align: center;
-    width: 100%; /* Ocupar todo el ancho disponible */
+    width: 100%;
+    /* Ocupar todo el ancho disponible */
   }
 }
 
@@ -275,15 +281,21 @@ h1 {
 
 .imagen-content {
   display: flex;
-  flex-direction: row; /* Esto coloca la imagen y el texto en línea */
-  align-items: center; /* Alinea verticalmente */
-  justify-content: space-between; /* Espacio entre imagen y texto */
-  gap: 20px; /* Espacio entre los dos elementos */
-  flex-wrap: wrap; /* Por si el espacio es pequeño, que no se rompa feo */
+  flex-direction: row;
+  /* Esto coloca la imagen y el texto en línea */
+  align-items: center;
+  /* Alinea verticalmente */
+  justify-content: space-between;
+  /* Espacio entre imagen y texto */
+  gap: 20px;
+  /* Espacio entre los dos elementos */
+  flex-wrap: wrap;
+  /* Por si el espacio es pequeño, que no se rompa feo */
 }
 
 .imagenprincipal {
-  flex: 1; /* Ocupa una parte proporcional del ancho */
+  flex: 1;
+  /* Ocupa una parte proporcional del ancho */
   min-width: 300px;
 }
 
@@ -294,7 +306,8 @@ h1 {
 }
 
 .text-container {
-  flex: 2; /* El texto ocupa el doble del ancho de la imagen */
+  flex: 2;
+  /* El texto ocupa el doble del ancho de la imagen */
   text-align: left;
 }
 
@@ -306,9 +319,12 @@ h1 {
 }
 
 .content {
-  background-color: rgba(255, 246, 246, 0.932); /* Fondo semitransparente */
-  backdrop-filter: blur(8px); /* Borrosidad del fondo */
-  -webkit-backdrop-filter: blur(8px); /* Soporte para Safari */
+  background-color: rgba(255, 246, 246, 0.932);
+  /* Fondo semitransparente */
+  backdrop-filter: blur(8px);
+  /* Borrosidad del fondo */
+  -webkit-backdrop-filter: blur(8px);
+  /* Soporte para Safari */
   padding: 20px;
   border-radius: 12px;
   color: #333;
@@ -316,8 +332,10 @@ h1 {
 
 h1.text-center {
   background-color: #f9a092;
-  padding: 20px; /* opcional para separar contenido del borde */
-  border-radius: 10px; /* opcional para bordes redondeados */
+  padding: 20px;
+  /* opcional para separar contenido del borde */
+  border-radius: 10px;
+  /* opcional para bordes redondeados */
 }
 
 .mi-footer {
@@ -326,4 +344,13 @@ h1.text-center {
   text-align: center;
   padding: 10px 0;
   font-size: 1.8rem;
+}
+
+
+.card.perri img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
 }
