@@ -1,18 +1,19 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
-  font-family: 'Segoe UI', sans-serif;
+
 }
 
 /* Fondo de imagen (patitas) */
 body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07yJo-Mnc4ajAzXKtI6KmcnZEGelNnuEVrg&s"); /* Cambia por tu imagen real */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07yJo-Mnc4ajAzXKtI6KmcnZEGelNnuEVrg&s");
+  /* Cambia por tu imagen real */
   background-position: center;
   background-attachment: fixed;
   color: var(--text-dark);
@@ -27,7 +28,8 @@ body {
   width: 90%;
   margin: 30px auto;
   padding: 20px 25px;
-  background: rgba(255, 255, 255, 0.95); /* Blanco casi sólido */
+  background: rgba(255, 255, 255, 0.95);
+  /* Blanco casi sólido */
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   flex-grow: 1;
@@ -85,11 +87,14 @@ body {
 .links-section {
   margin-top: 3rem;
   text-align: center;
-  background: rgba(255, 255, 255, 0.95); /* fondo blanco semitransparente para que se vea limpio */
+  background: rgba(255, 255, 255, 0.95);
+  /* fondo blanco semitransparente para que se vea limpio */
   padding: 20px 30px;
   border-radius: 10px;
-  display: inline-block; /* para que el fondo se ajuste al contenido */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* sombra ligera para destacar */
+  display: inline-block;
+  /* para que el fondo se ajuste al contenido */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* sombra ligera para destacar */
 }
 
 .links-section h2 {

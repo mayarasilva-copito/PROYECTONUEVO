@@ -4,7 +4,6 @@ body {
   align-items: center;
   height: 100vh;
   background: #f7f7f7;
-  font-family: Arial, sans-serif;
 }
 
 .card {
@@ -25,11 +24,13 @@ body {
 
 .card .info {
   position: absolute;
-  top: 0; /* queda encima */
+  top: 0;
+  /* queda encima */
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 153, 153, 0.8); /* fondo rosado semitransparente */
+  background: rgba(255, 153, 153, 0.8);
+  /* fondo rosado semitransparente */
   color: white;
   display: flex;
   flex-direction: column;

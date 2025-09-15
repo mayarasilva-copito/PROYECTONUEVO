@@ -1,6 +1,10 @@
 .perri img {
-  max-width: 250px; /* ancho máximo */
-  height: auto; /* mantiene proporción */
-  display: block; /* para centrar */
-  margin: 0 auto 15px auto; /* centrado y espacio abajo */
+  max-width: 250px;
+  /* ancho máximo */
+  height: auto;
+  /* mantiene proporción */
+  display: block;
+  /* para centrar */
+  margin: 0 auto 15px auto;
+  /* centrado y espacio abajo */
 }

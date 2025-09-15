@@ -7,6 +7,10 @@
   --: #296a6e;
 }
 
+body {
+  font-family: cursive
+}
+
 .logo img {
   width: 10%;
 }
