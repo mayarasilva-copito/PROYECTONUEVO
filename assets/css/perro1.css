@@ -56,23 +56,3 @@ body {
   color: #fff;
   border-color: #6366f1;
 }
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 12px;
-  background: #fff;
-  /* Opcional: para que se vea separado */
-  border-top: 1px solid #eee;
-  /* Opcional: línea divisoria */
-}
-
-.card-footer .nombre {
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-.card-footer .btn {
-  /* Personaliza el botón si quieres */
-}
