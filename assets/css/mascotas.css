@@ -55,3 +55,44 @@ body {
   color: #fff;
   border-color: #6366f1;
 }
+.perri .contenido {
+  display: flex; /* Imagen y texto en fila */
+  align-items: flex-start; /* Alineados arriba */
+  gap: 20px; /* Espacio entre imagen y texto */
+}
+
+.perri img {
+  max-width: 500px; /* Controla el ancho de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.perri .info {
+  flex: 1; /* Hace que el texto ocupe el espacio sobrante */
+}
+
+/* Hace la tarjeta más ancha y centrada */
+.perri {
+  max-width: 1000px; /* ancho máximo más grande */
+  margin: auto c; /* la centra */
+}
+
+/* Controla la imagen */
+.perri img {
+  width: 250px; /* ancho fijo */
+  max-width: 100%; /* en celulares no se rompe */
+  border-radius: 12px;
+  flex-shrink: 0; /* evita que se achique demasiado */
+}
+
+/* Texto ocupa todo el espacio libre */
+.perri .info {
+  flex: 1;
+}
+
+.perri .contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}

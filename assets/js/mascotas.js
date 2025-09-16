@@ -1,12 +1,15 @@
 let dataMascotas = {
     1: {
-        imgUrl: "../imag/perrito1.jpg",
+        imgUrl: "../img/perrito1.jpg",
         name: "Firulais",
         age: "5 meses",
         personality: "Juguetón y alegre",
         story: "Firulais solía vivir con una familia grande, pero ahora busca un hogar tranquilo donde disfrutar sus días sin estrés.",
         status: "Disponible para adopción 💕",
     },
+    2: {
+        imgUrl: "../img/gato1.jpg",
+    }
 }
 
 let selectedDogId = parseInt(localStorage.getItem("selectedDogId"));
