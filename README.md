@@ -2,7 +2,7 @@
 Este es mi primer proyecto en GitHub.
 
 ## Descripción
-Aquí explico de qué trata mi proyecto.
+Mi proyecto trata sobre la adopcion de perritos y gatitos y poder encontrales un hogar y sean felices 
 
 ## Cómo usarlo
 1. Clona este repositorio.
