@@ -8,7 +8,11 @@
 }
 
 body {
-  font-family: cursive
+  font-family: cursive;
+}
+
+body {
+  background-image: url("https://img.freepik.com/vector-gratis/adorable-fondo-estampado-pata-perfecto-ninos-amantes-animales_1017-47508.jpg");
 }
 
 .logo img {
@@ -221,7 +225,7 @@ header .fa-bars {
     /* Ocultar la barra de navegación en dispositivos móviles */
   }
 
-  header #toggler:checked~.navbar {
+  header #toggler:checked ~ .navbar {
     display: block;
     /* Mostrar la barra de navegación al hacer clic en el icono de hamburguesa */
     clip-path: none;
@@ -349,7 +353,6 @@ h1.text-center {
   padding: 10px 0;
   font-size: 1.8rem;
 }
-
 
 .card.perri img {
   width: 100%;
