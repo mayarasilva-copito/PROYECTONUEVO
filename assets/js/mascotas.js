@@ -15,7 +15,7 @@ let dataMascotas = {
     },
     3: {
         imgUrl: "../img/perrito2.jpg",
-        name: "Rocky",  
+        name: "Rocky",
         age: "1 año",
         personality: "Protector y leal",
         story: "Rocky es un perro que ha vivido en un refugio y está listo para encontrar a su familia definitiva.",
@@ -43,8 +43,8 @@ let dataMascotas = {
     },
     7: {
         imgUrl: "../img/perrito4.jpg",
-        name: "Coco",    
-        age: "6 meses", 
+        name: "Coco",
+        age: "6 meses",
         personality: "Curioso y juguetón",
         story: "Toby es un cachorro lleno de energía que está listo para encontrar a su familia para toda la vida.",
     },
@@ -55,7 +55,7 @@ let dataMascotas = {
         personality: "Cariñosa y dulce",
         story: "Mango es una gato que busca un hogar donde pueda recibir mucho amor y atención.",
     },
-    9: { 
+    9: {
         imgUrl: "../img/perrito5.jpg",
         name: "Casper",
         age: "6 meses",
@@ -87,12 +87,12 @@ let dataMascotas = {
 
 let selectedDogId = parseInt(localStorage.getItem("selectedDogId"));
 
-// console.log(dataMascotas[selectedDogId]);
+console.log(dataMascotas[selectedDogId]);
 
 function displayDogInfo(dogId) {
     document.getElementById("dog-img").src = dataMascotas[dogId].imgUrl;
     document.getElementById("dog-name").innerText = `🐾 ${dataMascotas[dogId].name}`;
-    
+    // FALTA AGREGAR LOS OTROS DATOS, YO SOLO DEJÉ DOS HECHOS
 }
 
 displayDogInfo(selectedDogId);
