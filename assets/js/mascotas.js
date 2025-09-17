@@ -1,6 +1,6 @@
 let dataMascotas = {
     1: {
-        imgUrl: "./assets/img/perrito1.jpg",
+        imgUrl: "../assets/img/perrito1.jpg",
         name: "Firulais",
         age: "5 meses",
         personality: "Juguetón y alegre",

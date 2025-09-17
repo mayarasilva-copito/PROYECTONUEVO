@@ -96,3 +96,51 @@ body {
   gap: 20px;
   text-align: center;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #4f46e5;
+  text-decoration: none;
+}
+header .logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+header .navbar a {
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+header .navbar a:hover {
+  color: #4f46e5;
+}
+header .fas {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #333;
+  display: none;
+}
+header .fas:hover {
+  color: #4f46e5;
+}
+header #toggler {
+  display: none;
+}
