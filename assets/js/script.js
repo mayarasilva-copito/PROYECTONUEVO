@@ -92,5 +92,6 @@ for (let i = 0; i < dogsData.length; i++) {
                 </div>
             </div>
         </div>
+        
     `;
 }
