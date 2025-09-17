@@ -48,6 +48,7 @@ h1 {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 0.7rem;
+  flex: 0 0 auto;
 }
 
 .nombre {
