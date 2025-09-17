@@ -7,7 +7,7 @@ let dogsData = [
     {
         id: 2,
         imgUrl: "../img/perrito2.jpg",
-        name: "Max",        
+        name: "Luna",        
     },
     {
         id: 3,
@@ -17,17 +17,17 @@ let dogsData = [
     {
         id: 4,
         imgUrl: "../img/perrito4.jpg", 
-        name: "Rocky",     
+        name: "Bella",     
     },
     {
         id: 5,
         imgUrl: "../img/perrito5.jpg", 
-        name: "Luna",     
+        name: "Mia",     
     },
     {
         id: 6,
         imgUrl: "../img/perrito6.jpg",
-        name: "Mia",
+        name: "Kira",
     },
     {
         id: 7,  
@@ -47,17 +47,17 @@ let dogsData = [
     {
         id: 10, 
         imgUrl: "../img/perrito10.jpg",
-        name: "Kira",
+        name: "Bob",
     },
     {
         id: 11,
         imgUrl: "../img/perrito11.jpg",
-        name: "Bob",
+        name: "Rex",
     },
     {
         id: 12,
         imgUrl: "../img/perrito12.jpg",
-        name: "Toby",
+        name: "Figaro",
     },
 
 ]
