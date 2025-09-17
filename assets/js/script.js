@@ -1,62 +1,62 @@
 let dogsData = [
     {
         id: 1,
-        imgUrl: "../img/perrito1.jpg",
+        imgUrl: "./assets/img/perrito1.jpg",
         name: "Firulais",
     },
     {
         id: 2,
-        imgUrl: "../img/perrito2.jpg",
+        imgUrl: "./assets/img/gato1.jpg",
         name: "Luna",        
     },
     {
         id: 3,
-        imgUrl: "../img/perrito3.jpg",  
+        imgUrl: "./assets/img/perrito2.jpg",  
         name: "Rocky",
     },
     {
         id: 4,
-        imgUrl: "../img/perrito4.jpg", 
+        imgUrl: "./assets/img/gatito2.jpg", 
         name: "Bella",     
     },
     {
         id: 5,
-        imgUrl: "../img/perrito5.jpg", 
+        imgUrl: "./assets/img/perrita3.jpg", 
         name: "Mia",     
     },
     {
         id: 6,
-        imgUrl: "../img/perrito6.jpg",
+        imgUrl: "assets/img/gatito3.jpg",
         name: "Kira",
     },
     {
         id: 7,  
-        imgUrl: "../img/perrito7.jpg",
+        imgUrl: "./assets/img/perrito4.jpg",
         name: "Coco",
     },
     {
         id: 8,
-        imgUrl: "../img/perrito8.jpg",
+        imgUrl: "./assets/img/gatitonaranja.png",
         name: "Mango",
     },
     {
         id: 9,  
-        imgUrl: "../img/perrito9.jpg",
+        imgUrl: "./assets/img/perrito5.jpg",
         name: "Casper",
     },
     {
         id: 10, 
-        imgUrl: "../img/perrito10.jpg",
+        imgUrl: "./assets/img/gatito5.jpg",
         name: "Bob",
     },
     {
         id: 11,
-        imgUrl: "../img/perrito11.jpg",
+        imgUrl: "./assets/img/perrito6.jpg",
         name: "Rex",
     },
     {
         id: 12,
-        imgUrl: "../img/perrito12.jpg",
+        imgUrl: "./assets/img/gatito6.jpg",
         name: "Figaro",
     },
 
