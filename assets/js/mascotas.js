@@ -1,98 +1,112 @@
 let dataMascotas = {
     1: {
-        imgUrl: "../assets/img/perrito1.jpg",
+        imgUrl: "../img/perrito1.jpg",
         name: "Firulais",
         age: "5 meses",
         personality: "Juguetón y alegre",
-        story: "Firulais solía vivir con una familia grande, pero ahora busca un hogar tranquilo donde disfrutar sus días sin estrés.",
+        history: "Firulais solía vivir con una familia grande, pero ahora busca un hogar tranquilo donde disfrutar sus días sin estrés.",
     },
     2: {
         imgUrl: "../img/gato1.jpg",
         name: "Luna",
-        age: "6 meses",
+        age: "3 años",
         personality: "Curiosa y cariñosa",
-        story: "Luna fue rescatada de las calles y ahora busca un hogar lleno de amor y cuidados.",
+        history: "Luna fue rescatada de la calle y ahora busca un hogar donde pueda recibir todo el amor que merece.",
     },
     3: {
         imgUrl: "../img/perrito2.jpg",
         name: "Rocky",
         age: "1 año",
         personality: "Protector y leal",
-        story: "Rocky es un perro que ha vivido en un refugio y está listo para encontrar a su familia definitiva.",
+        history: "Rocky es un perro valiente que siempre está dispuesto a cuidar de su familia. Busca un hogar donde pueda sentirse seguro.",
     },
     4: {
-        imgUrl: "../img/gato2.jpg",
+        imgUrl: "../img/gatito2.jpg",
         name: "Bella",
         age: "6 meses",
-        personality: "Juguetona y traviesa",
-        story: "Bella es una gatita llena de energía que busca un hogar donde pueda explorar y jugar todo el día.",
+        personality: "Dulce y juguetona",
+        history: "Bella es una gatita llena de energía que adora jugar con pelotas y perseguuir luces. Busca un hogar donde pueda divertirse y recibir mucho cariño.",
     },
     5: {
-        imgUrl: "../img/perrito3.jpg",
-        name: "Mia",
-        age: "7 meses",
-        personality: "Amigable y sociable",
-        story: "Mia es un perrita que adora la compañía humana y está buscando una familia que le brinde mucho cariño.",
+        imgUrl: "../img/perrita3.jpg",
+        name: "Max",
+        age: "2 años",
+        personality: "Tranquilo y amigable",
+        history: "Max es un perro calmado que disfruta de paseos largos y momentos de relajación. Busca un hogar donde pueda vivir en paz.",
     },
     6: {
-        imgUrl: "../img/gato3.jpg",
-        name: "Kira",
-        age: "1 año",
-        personality: "Tranquilo y observador",
-        story: "Kira es un gatita que disfruta de la tranquilidad del hogar y busca un lugar donde pueda sentirse seguro.",
+        imgUrl: "../img/gatito3.jpg",
+        name: "Milo",
+        age: "4 años",
+        personality: "Independiente pero cariñoso",
+        history: "Milo es un gato que sabe lo que quiere. Aunque es independiente, le encanta acurrucarse en las noches. Busca un hogar donde pueda ser él mismo.",
     },
     7: {
         imgUrl: "../img/perrito4.jpg",
-        name: "Coco",
-        age: "6 meses",
+        name: "Toby",
+        age: "8 meses",
         personality: "Curioso y juguetón",
-        story: "Toby es un cachorro lleno de energía que está listo para encontrar a su familia para toda la vida.",
+        history: "Toby es un cachorro lleno de energía que adora explorar su entorno. Busca un hogar donde pueda crecer y aprender.",
     },
     8: {
-        imgUrl: "../img/gato4.jpg",
-        name: "Mango",
-        age: "8 meses",
-        personality: "Cariñosa y dulce",
-        story: "Mango es una gato que busca un hogar donde pueda recibir mucho amor y atención.",
+        imgUrl: "../img/gatitonaranja.png",
+        name: "Simba",
+        age: "1 año",
+        personality: "Valiente y juguetón",
+        history: "Simba es un gato aventurero que siempre está buscando nuevas experiencias. Busca un hogar donde pueda sentirse libre y amado.",
     },
     9: {
         imgUrl: "../img/perrito5.jpg",
-        name: "Casper",
-        age: "6 meses",
-        personality: "jugueton y travieso",
-        story: "casper es un perro que ha vivido con una familia, pero ahora busca un nuevo hogar donde pueda sentirse amado.",
+        name: "Charlie",
+        age: "3 años",
+        personality: "Amigable y sociable",
+        history: "Charlie es un perro que se lleva bien con todos. Le encanta hacer nuevos amigos y busca un hogar donde pueda compartir su alegría.",
     },
     10: {
-        imgUrl: "../img/gato5.jpg",
-        name: "Bob",
+        imgUrl: "../img/gatito5.jpg",
+        name: "Nala",
         age: "2 años",
-        personality: "Juguetón y curioso",
-        story: "Bob es un gato que adora explorar y jugar, y está buscando una familia que le brinde un hogar lleno de amor.",
+        personality: "Cariñosa y juguetona",
+        history: "Nala es una gata que adora recibir mimos y jugar con sus dueños. Busca un hogar donde pueda sentirse segura y querida.",
     },
     11: {
         imgUrl: "../img/perrito6.jpg",
-        name: "Rex",
-        age: "1 año",
-        personality: "Amigable y sociable",
-        story: "Rex es un perro que disfruta de la compañía humana y está buscando una familia que le brinde mucho cariño.",
+        name: "Buddy",
+        age: "4 años",
+        personality: "Leal y protector",
+        history: "Buddy es un perro que siempre está atento a su entorno. Busca un hogar donde pueda cuidar de su familia y sentirse amado.",
     },
     12: {
         imgUrl: "../img/gato6.jpg",
-        name: "Figaro",
-        age: "3 años",
-        personality: "Tranquilo y observador",
-        story: "Figaro es un gato que disfruta de la tranquilidad del hogar y busca un lugar donde pueda sentirse seguro.",
+        name: "Coco",
+        age: "5 meses",
+        personality: "Juguetona y curiosa",
+        history: "Coco es una gatita llena de energía que adora explorar y jugar. Busca un hogar donde pueda crecer feliz y saludable.",
     },
 };
 
 let selectedDogId = parseInt(localStorage.getItem("selectedDogId"));
 
-console.log(dataMascotas[selectedDogId]);
-
-function displayDogInfo(dogId) {
-    document.getElementById("dog-img").src = dataMascotas[dogId].imgUrl;
-    document.getElementById("dog-name").innerText = `🐾 ${dataMascotas[dogId].name}`;
-    // FALTA AGREGAR LOS OTROS DATOS, YO SOLO DEJÉ DOS HECHOS
+// Si no hay nada en localStorage, usamos 1 como valor por defecto
+if (!selectedDogId) {
+    selectedDogId = 1;
 }
 
+// Función que muestra la info
+function displayDogInfo(dogId) {
+    let mascota = dataMascotas[dogId];
+
+    if (!mascota) {
+        document.getElementById("dog-info").innerHTML = "<p>Mascota no encontrada 🐾</p>";
+        return;
+    }
+
+    document.getElementById("dog-img").src = mascota.imgUrl;
+    document.getElementById("dog-name").innerText = `🐾 ${mascota.name}`;
+    document.getElementById("dog-age").innerText = `Edad: ${mascota.age}`;
+    document.getElementById("dog-personality").innerText = `Personalidad: ${mascota.personality}`;
+    document.getElementById("dog-history").innerText = `Historia: ${mascota.history}`;
+}
+
+// 👇 en lugar de mostrar siempre la 1, mostramos la que esté guardada
 displayDogInfo(selectedDogId);
