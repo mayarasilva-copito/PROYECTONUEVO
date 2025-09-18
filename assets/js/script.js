@@ -7,22 +7,22 @@ let dogsData = [
     {
         id: 2,
         imgUrl: "./assets/img/gato1.jpg",
-        name: "Luna",        
+        name: "Luna",
     },
     {
         id: 3,
-        imgUrl: "./assets/img/perrito2.jpg",  
+        imgUrl: "./assets/img/perrito2.jpg",
         name: "Rocky",
     },
     {
         id: 4,
-        imgUrl: "./assets/img/gatito2.jpg", 
-        name: "Bella",     
+        imgUrl: "./assets/img/gatito2.jpg",
+        name: "Bella",
     },
     {
         id: 5,
-        imgUrl: "./assets/img/perrita3.jpg", 
-        name: "Mia",     
+        imgUrl: "./assets/img/perrita3.jpg",
+        name: "Mia",
     },
     {
         id: 6,
@@ -30,7 +30,7 @@ let dogsData = [
         name: "Kira",
     },
     {
-        id: 7,  
+        id: 7,
         imgUrl: "./assets/img/perrito4.jpg",
         name: "Coco",
     },
@@ -40,12 +40,12 @@ let dogsData = [
         name: "Mango",
     },
     {
-        id: 9,  
+        id: 9,
         imgUrl: "./assets/img/perrito5.jpg",
         name: "Casper",
     },
     {
-        id: 10, 
+        id: 10,
         imgUrl: "./assets/img/gatito5.jpg",
         name: "Bob",
     },
@@ -61,14 +61,6 @@ let dogsData = [
     },
 
 ]
-
-document.querySelectorAll(".dog-btn").forEach(button => {
-    button.addEventListener("click", () => {
-        // console.log("Botón clickeado:", button.id);
-        let dogId = button.id.split("-")[1];
-        localStorage.setItem("selectedDogId", dogId);
-    })
-})
 
 let cardContainer = document.getElementById("dog-card-container");
 
@@ -92,6 +84,14 @@ for (let i = 0; i < dogsData.length; i++) {
                 </div>
             </div>
         </div>
-        
+
     `;
 }
+
+document.querySelectorAll(".dog-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        // console.log("Botón clickeado:", button.id);
+        let dogId = button.id.split("-")[1];
+        localStorage.setItem("selectedDogId", dogId);
+    })
+})
