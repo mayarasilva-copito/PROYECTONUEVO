@@ -4,6 +4,19 @@ body {
   min-height: 100vh;
 }
 
+body {
+  overflow-y: scroll;
+  /* aún puedes hacer scroll con rueda o teclado */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
+
 .perri {
   max-width: 450px;
   margin: 0 auto;
@@ -55,33 +68,45 @@ body {
   color: #fff;
   border-color: #6366f1;
 }
+
 .perri .contenido {
-  display: flex; /* Imagen y texto en fila */
-  align-items: flex-start; /* Alineados arriba */
-  gap: 20px; /* Espacio entre imagen y texto */
+  display: flex;
+  /* Imagen y texto en fila */
+  align-items: flex-start;
+  /* Alineados arriba */
+  gap: 100px;
+  /* Espacio entre imagen y texto */
 }
 
 .perri img {
-  max-width: 500px; /* Controla el ancho de la imagen */
-  border-radius: 10px; /* Bordes redondeados */
+  max-width: 500px;
+  /* Controla el ancho de la imagen */
+  border-radius: 10px;
+  /* Bordes redondeados */
 }
 
 .perri .info {
-  flex: 1; /* Hace que el texto ocupe el espacio sobrante */
+  flex: 1;
+  /* Hace que el texto ocupe el espacio sobrante */
 }
 
 /* Hace la tarjeta más ancha y centrada */
 .perri {
-  max-width: 1000px; /* ancho máximo más grande */
-  margin: auto c; /* la centra */
+  max-width: 1000px;
+  /* ancho máximo más grande */
+  margin: auto c;
+  /* la centra */
 }
 
 /* Controla la imagen */
 .perri img {
-  width: 250px; /* ancho fijo */
-  max-width: 100%; /* en celulares no se rompe */
+  width: 250px;
+  /* ancho fijo */
+  max-width: 100%;
+  /* en celulares no se rompe */
   border-radius: 12px;
-  flex-shrink: 0; /* evita que se achique demasiado */
+  flex-shrink: 0;
+  /* evita que se achique demasiado */
 }
 
 /* Texto ocupa todo el espacio libre */
@@ -98,18 +123,22 @@ body {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  padding: 2rem 9%;
+  height: 100px;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1000;
-  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+header .logo img {
+  height: 100px;
+}
+
+.navbar a {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
 header .logo {
   display: flex;
   align-items: center;
@@ -118,29 +147,101 @@ header .logo {
   color: #4f46e5;
   text-decoration: none;
 }
+
 header .logo img {
   height: 50px;
-  margin-right: 10px;
+  margin-right: 60px;
+  border-radius: 15px;
 }
+
 header .navbar a {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin: 0 1rem;
   color: #333;
   text-decoration: none;
   font-weight: 500;
 }
+
 header .navbar a:hover {
   color: #4f46e5;
 }
+
 header .fas {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   cursor: pointer;
   color: #333;
   display: none;
 }
+
 header .fas:hover {
   color: #4f46e5;
 }
+
 header #toggler {
   display: none;
+}
+
+#dog-img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: center;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.info h2 {
+  font-size: 40px;
+  color: #4a3aff;
+  margin-bottom: 10px;
+}
+
+.card.perri {
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 20px;
+  min-height: 100px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estructura del body para hacer sticky footer */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* El contenido debe crecer para empujar el footer */
+body>.container {
+  flex: 1;
+}
+
+.info {
+  font-size: 18px;
+  /* Puedes subirlo a 20px si lo quieres más grande */
+  line-height: 1.8;
+  text-align: center;
+  color: #333;
+}
+
+.info h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4a3aff;
+}
+
+#dog-status,
+#dog-history,
+#dog-personality,
+#dog-age {
+  font-size: 20px;
 }

@@ -77,7 +77,7 @@ let dataMascotas = {
         history: "Buddy es un perro que siempre está atento a su entorno. Busca un hogar donde pueda cuidar de su familia y sentirse amado.",
     },
     12: {
-        imgUrl: "../img/gato6.jpg",
+        imgUrl: "../img/gatito6.jpg",
         name: "Coco",
         age: "5 meses",
         personality: "Juguetona y curiosa",

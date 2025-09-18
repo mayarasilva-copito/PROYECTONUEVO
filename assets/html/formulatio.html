@@ -1,127 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adopta una Mascota</title>
-    <link rel="stylesheet" href="../css/formulario.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <a href="../../index.html">Inicio</a>
-        <a href="#about">Nosotros</a>
-        <a href="#Mascotas">Mascotas</a>
-        <a href="./assets/html/quienessomos.html">¿Quienes Somos?</a>
-        <a href="./assets/html/tips.html">Tips de cuidado </a>
-        <a href="./assets/html/formulatio.html">Formulario de Adopcion </a>
-        <a href="../html/contactanos.html">Contactanos</a>
-        <a href="./assets/html/suscribir.html" title="Suscribirse"></a>
-      </nav>
-    </header>
-    <div class="formulario-contenedor">
-      <h1>🐾 Formulario de Adopción</h1>
-      <p>Completa este formulario para brindarle un hogar a un peludito 🐶🐱</p>
 
-      <form class="formulario-adopcion" action="#" method="post">
-        <div id="campo">
-          <label for="nombre">Nombre completo</label>
-          <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Tu nombre completo"
-            required
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopta una Mascota</title>
+  <link rel="stylesheet" href="../css/formulario.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
 
-        <div class="campo">
-          <label for="email">Correo electrónico</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="ejemplo@email.com"
-            required
-          />
-        </div>
-
-        <div class="campo">
-          <label for="telefono">Teléfono</label>
-          <input
-            type="tel"
-            id="telefono"
-            name="telefono"
-            placeholder="Ej. 1234567890"
-            required
-          />
-        </div>
-
-        <div class="campo">
-          <label for="direccion">Dirección</label>
-          <textarea
-            id="direccion"
-            name="direccion"
-            placeholder="Tu dirección completa"
-            required
-          ></textarea>
-        </div>
-
-        <div class="campo">
-          <label for="tipo_mascota">¿Qué deseas adoptar?</label>
-          <select id="tipo_mascota" name="tipo_mascota" required>
-            <option value="">Selecciona una opción</option>
-            <option value="perro">🐶 Perrito</option>
-            <option value="gato">🐱 Gatito</option>
-          </select>
-        </div>
-
-        <div class="campo">
-          <label for="experiencia"
-            >¿Tienes experiencia cuidando mascotas?</label
-          >
-          <textarea
-            id="experiencia"
-            name="experiencia"
-            placeholder="Cuéntanos si has tenido mascotas antes..."
-          ></textarea>
-        </div>
-
-        <div class="campo">
-          <label for="tiempo_libre">¿Cuántas horas al día estás en casa?</label>
-          <input
-            type="number"
-            id="tiempo_libre"
-            name="tiempo_libre"
-            placeholder="Ej. 8"
-            required
-          />
-        </div>
-
-        <div class="campo">
-          <label>¿Te comprometes a cuidar de esta mascota toda su vida?</label>
-          <div class="radio-group">
-            <label
-              ><input type="radio" name="compromiso" value="si" required />
-              Sí</label
-            >
-            <label
-              ><input type="radio" name="compromiso" value="no" /> No</label
-            >
-          </div>
-        </div>
-
-        <div class="campo">
-          <button type="submit">Enviar Solicitud ❤️</button>
-        </div>
-      </form>
+<body>
+  <header>
+    <div class="portada"></div>
+    <input type="checkbox" name="menu" id="toggler" />
+    <label for="toggler" class="fas fa-bars"></label>
+    <a href="#" class="logo">
+      <img src="../img/logo del trabajo.png" alt="Logo" />
+      <span>HAPPY TAILS</span>
+    </a>
+    <nav class="navbar">
+      <a href="../../index.html">Inicio</a>
+      <a href="../../index.html">Nosotros</a>
+      <a href="../../index.html">Mascotas</a>
+      <a href="../html/quienessomos.html">¿Quienes Somos?</a>
+      <a href="../html/tips.html">Tips de cuidado </a>
+      <a href="../html/contactanos.html">Contactanos</a>
+      <a href="../html/formulatio.html">Formulario de Adopcion </a>
+    </nav>
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-user"></a>
     </div>
+  </header>
+  <div class="formulario-contenedor">
+    <h1>🐾 Formulario de Adopción</h1>
+    <p>Completa este formulario para brindarle un hogar a un peludito 🐶🐱</p>
 
-    <script src="../js/formulario.js"></script>
-  </body>
+    <form class="formulario-adopcion" action="#" method="post">
+      <div id="campo">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+      </div>
+
+      <div class="campo">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required />
+      </div>
+
+      <div class="campo">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 1234567890" required />
+      </div>
+
+      <div class="campo">
+        <label for="direccion">Dirección</label>
+        <textarea id="direccion" name="direccion" placeholder="Tu dirección completa" required></textarea>
+      </div>
+
+      <div class="campo">
+        <label for="tipo_mascota">¿Qué deseas adoptar?</label>
+        <select id="tipo_mascota" name="tipo_mascota" required>
+          <option value="">Selecciona una opción</option>
+          <option value="perro">🐶 Perrito</option>
+          <option value="gato">🐱 Gatito</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label for="experiencia">¿Tienes experiencia cuidando mascotas?</label>
+        <textarea id="experiencia" name="experiencia"
+          placeholder="Cuéntanos si has tenido mascotas antes..."></textarea>
+      </div>
+
+      <div class="campo">
+        <label for="tiempo_libre">¿Cuántas horas al día estás en casa?</label>
+        <input type="number" id="tiempo_libre" name="tiempo_libre" placeholder="Ej. 8" required />
+      </div>
+
+      <div class="campo">
+        <label>¿Te comprometes a cuidar de esta mascota toda su vida?</label>
+        <div class="radio-group">
+          <label><input type="radio" name="compromiso" value="si" required />
+            Sí</label>
+          <label><input type="radio" name="compromiso" value="no" /> No</label>
+        </div>
+      </div>
+
+      <div class="campo">
+        <button type="submit">Enviar Solicitud ❤️</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="../js/formulario.js"></script>
+</body>
+
 </html>
